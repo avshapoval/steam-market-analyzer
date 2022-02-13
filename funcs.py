@@ -23,7 +23,7 @@ def get_profit_percent():
         else:
             if percent < 0 or percent > 100:
                 print("Incorrect number inputed")
-            print("Процент сохранен\n")
+            print("Percent saved\n")
             return percent
 
 
