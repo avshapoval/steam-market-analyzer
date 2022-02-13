@@ -17,13 +17,12 @@ def get_profit_percent():
     """Get minimum profit percent from user"""
     while True:
         try:
-            percent = float(input("Введите минимальный интересующий вас процент скидки по сравнению с "
-                                  "ценой в steam в формате целого или дробного числа от 0 до 100: "))
+            percent = float(input("Please input minimum profit percent from 0 to 100: "))
         except ValueError:
-            print("Вы ввели неправильное число")
+            print("Incorrect number inputed")
         else:
             if percent < 0 or percent > 100:
-                print("Вы ввели неправильное число")
+                print("Incorrect number inputed")
             print("Процент сохранен\n")
             return percent
 
@@ -113,6 +112,6 @@ def get_price(prompt: str):
         try:
             min_max_price = float(input(prompt))
         except ValueError:
-            print("Число введено неверно, попробуйте еще раз")
+            print("Incorrect input, please try again")
         else:
             return min_max_price
