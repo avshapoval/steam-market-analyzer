@@ -10,7 +10,7 @@ zenscrape_headers = {"apikey": "ZENSCAPE_API_KEY"}
 
 min_price = 0
 max_price = float('inf')
-min_profit_percent = 0.4
+min_profit_percent = 0.25
 filename = "bitskins.csv"
 
 found = []
