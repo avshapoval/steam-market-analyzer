@@ -4,9 +4,9 @@ import sys
 from funcs import *
 
 
-my_secret = 'H3PFLIKG4ERJKXJY'
-api = "8f384375-5750-4664-9731-692ae4e47701"
-zenscrape_headers = {"apikey": "6c3c9f90-73b0-11ec-ab8e-1728271e8221"}
+my_secret = 'SECRET_CODE_BITSKINS'
+api = "BITSKINS_API_KEY"
+zenscrape_headers = {"apikey": "ZENSCAPE_API_KEY"}
 
 min_price = 0
 max_price = float('inf')
