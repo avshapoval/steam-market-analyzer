@@ -3,7 +3,8 @@ CS:GO skins parser, which finds undervalued skins on side platform named BitSkin
 ## Features
 You can easily find undervalued skins, that are able to be sold in steam for higher price later. Market volume, prices and comissions for each item are taken into account.\
 You can setup your search request - change price range, minimum profit rate, save technical information for later processing.\
-All results are saved to .csv file that can be used for later processing if necessary.
+All results are saved to .csv file that can be used for later processing if necessary.\
+Added protection from wrong input.\
 You can find .exe file that is ready to use (with my accounts and API keys, there are no money on them, but you are able to see how everything works).
 ## Accounts required
 Besides Steam account with purchased game and absence of Trade Ban, accounts and API keys on [BitSkins](https://bitskins.com/) and [Zenscrape](https://zenscrape.com/) are required.
